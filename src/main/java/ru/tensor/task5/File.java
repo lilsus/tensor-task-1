@@ -5,7 +5,6 @@ public class File extends AbstractFileSystemNode {
 
     public File(String name, String extension) {
         super(name);
-        setParent(this);
         this.extension = extension;
     }
 
